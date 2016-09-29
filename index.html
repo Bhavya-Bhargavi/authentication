@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="login-app">
+<head>
+    <title> Login application </title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    
+</head>
+<body>
+    
+   <div class="container" ng-controller="mainCtrl">
+    <div ng-include="loginTemplate"></div>
+      
+    </div>
+    <script src="app.js"></script>
+    <script src="login/login.js"></script>
+    <script src="header/mainCtrl.js"></script>
+    <script src="login/authenticate.js"></script>
+</body>
+</html>
